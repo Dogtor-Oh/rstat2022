@@ -28,5 +28,9 @@ summary()
 # ggsave
 ggsave(".tiff", width = , height = )
 
+imageDirectory <- file.path(Sys.getenv("Home"), "Documents", "R projects", "rstat2022", "Image")
+imageFile <- file.path(imageDirectory, "Graph.png")
+ggsave(imageFile)
+
 ## Jun 23, 2022 
 
