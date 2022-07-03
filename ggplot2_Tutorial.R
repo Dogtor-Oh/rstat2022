@@ -1,3 +1,5 @@
+library(ggplot2)
+
 #Data from 'Discovering Statistics Using R (Andy Field)'
 facebookData <- read.csv("FacebookNarcissism.csv", header = TRUE)
 
